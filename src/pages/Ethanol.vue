@@ -59,13 +59,9 @@ export default {
 }
 
 .page-wrapper >>> .header-wrapper {
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .page-wrapper >>> .header {
-  /* order: 2; */
-  /* padding-left: 2em; */
 }
 
 .page-wrapper >>> .header-image {
