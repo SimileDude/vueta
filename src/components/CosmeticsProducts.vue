@@ -21,7 +21,7 @@
     </div>
     <img
       class="nail-polish-remover-acetone-img even right image container"
-      src="../assets/nail_polish_remover_acetone.png"
+      src="../assets/nail_polish_remover_acetone.webp"
       alt="acetone nail polish remover"
       loading="lazy"
       decode="async"
@@ -39,7 +39,7 @@
 
     <img
       class="nail-polish-remover-non-acetone-img odd left image container"
-      src="../assets/non_acetone_nail_polish_remover.png"
+      src="../assets/non_acetone_nail_polish_remover.webp"
       alt="acetone-free nail polish remover"
       loading="lazy"
       decode="async"
@@ -69,7 +69,7 @@ export default {};
   grid-template-columns: 1fr 22rem 22rem 1fr;
   grid-template-rows: repeat(3, 25rem);
   gap: 4rem 2rem;
-  background-image: url("../assets/strip-background-mesh-wallpaper-preview.jpeg");
+  background-image: url("../assets/strip-background-mesh-wallpaper-preview.webp");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   padding-top: 4em;

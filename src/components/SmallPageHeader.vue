@@ -71,10 +71,13 @@ export default {
 }
 
 .header-image {
+  box-sizing: border-box;
+  overflow: hidden;
   max-height: 60vh;
-  /* max-width: 40vw; */
   object-fit: cover;
+  opacity:70%;
 }
+
 @media screen and (max-width: 870px) {
   .header-wrapper {
     /* flex-direction: row; */

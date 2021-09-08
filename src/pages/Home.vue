@@ -1,11 +1,8 @@
 <template>
   <div class="home">
-    <!-- <section class="hero"> -->
-      <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-      <!-- <a href="#distillery-section" class="down-arrow">kgjkgjgjV</a> -->
-      <section class="hero-section" id="hero-section">
+    <section class="hero-section" id="hero-section">
         <img
-          src="../assets/downtown_toronto.jpeg"
+          src="../assets/downtown_toronto.webp"
           alt="Downtown Toronto"
           class="hero-image images"
           loading="lazy"
@@ -29,31 +26,7 @@
       <router-link :to="{ name: 'Contact' }" class="btn-container">
         <button class="cta-btn button-light">GET IN TOUCH</button>
       </router-link>
-      <!-- <router-link :to="{ hash: '#health' }" class="down-arrow">
-        <div class="btn"> 
-      </div>
-      </router-link> -->
-    <!-- </section> -->
-    <section class="distillery-section ">
-      <img
-        src="../assets/Ethanol_distillery_equipment.png"
-        alt=""
-        class="images"
-        id="distillery"
-        loading="lazy"
-        decode="async"
-      />
-      <div class=" health-image" alt="Health section"></div>
-    </section>
-    <section class="health-section" id="health">
-      <img
-        src="../assets/BACKGROUND800px.jpg"
-        alt=""
-        class="images left-slant"
-        loading="lazy"
-        decode="async"
-      />
-    </section>
+    
   </div>
 </template>
 
@@ -74,19 +47,14 @@ export default {
   min-height: 800px;
 }
 .hero-image {
-  /* position: relative; */
   box-sizing: border-box;
   object-fit: cover;
 }
 .images {
   box-sizing: border-box;
   width: 100vw;
-  height: 90vh;
+  height: calc(100vh - 4rem);
   object-fit: cover;
-  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
-
-  /* mask-image: linear-gradient(to bottom, transparent 10%, black); */
-  /* mask-image: linear-gradient(rgba(1,1,1,0.9), transparent); */
 }
 section{
   margin-bottom: 0.2rem;
@@ -110,7 +78,6 @@ section{
   padding: 2rem 2rem;
   border-radius: 0.5rem;
   margin-top: 5rem;
-  /* width: 40rem; */
   border: 6px solid rgba(33,56,46,0.6);
 }
 .hero-title {
@@ -132,9 +99,8 @@ section{
   top: 0;
   left: 0;
   filter: blur(15px) contrast(30);
-  /* background: #f2f2f2; */
 }
-.dot {
+/* .dot {
   position: absolute;
   width: 8rem;
   height: 8rem;
@@ -150,7 +116,7 @@ section{
 }
 .animated {
   animation: moveLeftToRight 4s ease-in-out infinite;
-}
+} */
 @keyframes moveLeftToRight {
   0% {
     transform: translateX(0%) rotate(0deg);
@@ -186,7 +152,6 @@ section{
     padding: 2rem 2rem;
     border-radius: 0.5rem;
     margin-top: 5rem;
-    /* width: 40rem; */
   }
   .hero-title {
     text-transform: uppercase;

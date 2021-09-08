@@ -4,7 +4,7 @@
     industrySubTitle="Reliable. Affordable."
     industryHeaderText="Our first-aid products are quality-sourced and locally produced.
                 You can use our TAVitals brand, or your own label."
-    headerImageUrl="first_aid_symbol.jpeg"
+    headerImageUrl="first_aid_symbol.webp"
     headerImageAlt="first aid products"
   />
   <HealthProducts />

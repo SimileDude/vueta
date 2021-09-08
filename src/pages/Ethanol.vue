@@ -6,7 +6,7 @@
       industryHeaderText="Our facility is equiped with a 5,000 L still (one of the largest in the 
                           Greater Toronto Area) and state-of-the-art equipment.  We can help you 
                           regardless of your stage in the journey."
-      headerImageUrl="fermentation-tanks.jpeg"
+      headerImageUrl="fermentation-tanks.webp"
       headerImageAlt="alcohol"
     />
       <!-- headerImageUrl="alcohol-beverages-small.jpeg" -->
@@ -72,7 +72,7 @@ export default {
   justify-content: center;
 
   background: rgb(0, 0, 0);
-  background: url("../assets/strip-background-mesh-wallpaper-preview.jpeg")
+  background: url("../assets/strip-background-mesh-wallpaper-preview.webp")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
