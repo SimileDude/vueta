@@ -1,4 +1,4 @@
-# vueta
+# Toronto Alcohols
 
 ## Project setup
 ```

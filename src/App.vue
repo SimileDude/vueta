@@ -87,6 +87,4 @@ textarea {
   top: 0px;
   z-index:10;
 }
-.footer-style {
-}
 </style>

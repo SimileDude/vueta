@@ -6,7 +6,7 @@
       industryHeaderText="Customers know what they want.  
                 Our line of cosmetics is effective, reliable, 
                 looks great and very affordable."
-      headerImageUrl="beauty_woman_leaves.jpeg"
+      headerImageUrl="beauty_woman_leaves.webp"
       headerImageAlt="Cosmetics products"
     />
     <CosmeticsProducts />

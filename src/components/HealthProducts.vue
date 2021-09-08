@@ -4,7 +4,7 @@
 
     <img
       class="hydrogen-peroxide-img odd left image container"
-      src="../assets/product_hydrogen_peroxide_3_perc.png"
+      src="../assets/product_hydrogen_peroxide_3_perc.webp"
       alt="hydrogen peroxide bottle 3% v/v"
       loading="lazy"
       decode="async"
@@ -15,31 +15,30 @@
       <div class="product-name">HYDROGEN PEROXIDE</div>
       <hr />
       <div class="product-desc">
-        Top quality hydrogen peroxide. Comes in normal screw cap or as a spray.
+        Top quality hydrogen peroxide. Normal screw cap.
         Size can be customized. Endless applications.
       </div>
     </div>
     <img
       class="hydrogen-peroxide-spray-img even right image container"
-      src="../assets/product_hydrogen_peroxide_spray_3_perc.png"
+      src="../assets/product_hydrogen_peroxide_spray_3_perc.webp"
       alt="hydrogen peroxide spray bottle 3% v/v"
       loading="lazy"
       decode="async"
     />
     <div class="hydrogen-peroxide-spray-info even left info container">
-      <div class="product-sub">USP Grade</div>
-      <div class="product-name">RUBBING ALCOHOL</div>
+      <div class="product-sub">3% v/v</div>
+      <div class="product-name">HYDROGEN PEROXIDE SPRAY</div>
       <hr />
       <div class="product-desc">
-        Choose your concentration, from 50% to 95% ethanol or isopropyl alcohol.
-        Can be made in various sizes from 30 ml to 4 litre jugs. Kills germs and
-        harmful bacteria.
+        Top quality hydrogen peroxide. Spray cap. 30ml size great for portability or travel.
+        Size can be customized. Endless applications for hydrogen peroxide.
       </div>
     </div>
 
     <img
       class="rubbing-alcohol-img odd left image container"
-      src="../assets/rubbing_alcohol.png"
+      src="../assets/rubbing_alcohol.webp"
       alt="hydrogen peroxide 3% v/v"
       loading="lazy"
       decode="async"
@@ -65,15 +64,14 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 22rem 22rem 1fr;
-  /* grid-template-rows: minmax(25rem, auto); */
   grid-template-rows: repeat(3, 25rem);
   gap: 4rem 2rem;
-  background-image: url("../assets/strip-background-mesh-wallpaper-preview.jpeg");
+  background-image: url("../assets/strip-background-mesh-wallpaper-preview.webp");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   padding-top: 4em;
   color: white;
-  padding-bottom: 8em;
+  padding-bottom: 6em;
   grid-template-areas:
     "product-h1 hydrogen-peroxide-img hydrogen-peroxide-info ."
     "product-h1 hydrogen-peroxide-spray-info hydrogen-peroxide-spray-img ."
@@ -156,18 +154,20 @@
   .industry-products {
     box-sizing: border-box;
     display: block;
-    padding: 4rem 2rem;
     margin: 0;
     width: 100%;
   }
   .product-h1 {
     box-sizing: border-box;
     writing-mode: horizontal-tb;
-    font-size: 4em;
+    font-size: 3em;
     color: #6f6c6c;
     opacity: 0.8;
     text-align: center;
-    padding: 0 4rem 4rem 4rem;
+    padding: 0 0 3rem;
+    margin: 0;
+    width: 100%;
+    justify-content: left;
   }
   .image {
     width: 100%;

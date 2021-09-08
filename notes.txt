@@ -1,2 +1,23 @@
 npm run serve //for startup
 vue add router // how you add a package in vue
+
+<section class="distillery-section ">
+      <img
+        src="../assets/Ethanol_distillery_equipment.png"
+        alt=""
+        class="images"
+        id="distillery"
+        loading="lazy"
+        decode="async"
+      />
+      <div class=" health-image" alt="Health section"></div>
+    </section>
+    <section class="health-section" id="health">
+      <img
+        src="../assets/BACKGROUND800px.jpg"
+        alt=""
+        class="images left-slant"
+        loading="lazy"
+        decode="async"
+      />
+    </section>

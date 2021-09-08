@@ -8,7 +8,7 @@
   <section class="contact-wrapper">
     <img class="info" src="../assets/info.svg" alt="info" 
       loading="lazy"
-      decode="async"/>
+      decode="async">
       <div class="form-desc">Or fill out the form: </div>
     <form
       id="my-form"
@@ -86,7 +86,8 @@ h2 {
   padding: 1rem;
 }
 h3 {
-  padding: 30px 0;
+  font-size: 1.5rem;
+  padding: 2rem 2rem;
 }
 .form-desc{
   font-size: 1.2rem;
@@ -102,7 +103,6 @@ h3 {
 }
 .info {
   max-width: 270px;
-  /* max-height: 400px; */
   width: 100%;
   margin-left: 4em;
   margin-bottom: 2em;
@@ -111,8 +111,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 33%; */
-  /* margin-right: auto; */
 }
 .right-side {
   max-width: 33%;
@@ -147,10 +145,21 @@ button:hover {
   color: black;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
  
   .header-wrapper {
-    margin-left: 2em;
+    margin-left: 1rem;
+    margin-top:2rem;
+    padding-top: 0;
+  }
+  h1,h2,h3 {
+    width:100%;
+    padding: 1rem 0rem;
+  }
+  .info{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
   }
 }
 </style>

@@ -1,11 +1,15 @@
 <template>
   <nav class="nav-bar" :class="{ 'scrolled-nav': scrolledNav }">
     <router-link :to="{ name: 'Home' }" class="header-logo">
-      <img
+      <!-- <img
         src="@/assets/toronto_alcohols_white_logo.svg"
         alt="Toronto_Alcohols_logo"
-      />
+      /> -->
+    <img style="height: 4rem" 
+    src="@/assets/toronto_alcohols_white_logo.svg" 
+    onerror="this.src='@/assets/toronto_alcohols_white_logo.png'; this.onerror=null;">
     </router-link>
+    
     <div class="header-menu" v-show="!mobile">
       <router-link :to="{ name: 'Ethanol' }" class="nav-links all-menu-links"
         >ETHANOL</router-link
@@ -18,9 +22,6 @@
         class="cosmetics-link nav-links all-menu-links"
         >COSMETICS</router-link
       >
-      <!-- <router-link to="/service" class="nav-links all-menu-links"
-        >SERVICE</router-link
-      > -->
       <div class="header-menu-right" v-show="!mobile">
         <router-link
           :to="{ name: 'Contact' }"
@@ -31,13 +32,15 @@
     </div>
 
     <div class="icon-wrapper">
-      <img src="@/assets/menu-bars.svg"
+      <img
+        src="@/assets/menu-bars.svg"
         class="icon"
         @click="toggleMobileNav"
         v-show="mobile"
         :class="{ 'icon-active': mobileNav }"
-      >
+      />
     </div>
+    
 
     <transition name="mobile-nav">
       <div class="dropdown-nav" v-show="mobileNav" @click="toggleMobileNav">
@@ -50,7 +53,7 @@
         <router-link :to="{ name: 'Cosmetics' }" class="dropdown-nav-links"
           >COSMETICS</router-link
         >
-        <router-link :to="{ name: 'Contact' }"  class="dropdown-nav-links"
+        <router-link :to="{ name: 'Contact' }" class="dropdown-nav-links"
           >CONTACT</router-link
         >
       </div>
@@ -109,12 +112,10 @@ export default {
   display: flex;
   height: 4rem;
   justify-content: center;
-  /* padding: 25px 0; */
   align-items: center;
-  background: #21382e ;
+  background: #21382e;
   color: white;
   padding-right: 15px;
-  /* cursor: pointer; */
   border-bottom: 1rem;
   width: 100%;
   box-sizing: border-box;
@@ -123,7 +124,6 @@ export default {
 .header-menu {
   display: flex;
   height: 100%;
-  /* max-width: 40rem; */
   min-width: 20rem;
   justify-content: space-between;
   align-items: center;
@@ -135,19 +135,17 @@ export default {
   color: white;
   text-decoration: none;
   font-size: 0.95em;
-}
-
-.nav-links {
+  font-weight: 500;
   justify-content: center;
   margin-right: 5rem;
   margin: 0;
-  box-sizing: border-box;
 }
 
 .all-menu-links.router-link-exact-active {
-  border-bottom: 4px solid #74C4A1; /*rgb(196, 230, 241); */
+  border-bottom: 4px solid #74c4a1; /*rgb(196, 230, 241); */
   border-radius: 3px;
   color: white;
+  font-weight: 900;
 }
 
 .contact-link {
@@ -156,6 +154,7 @@ export default {
 .header-logo {
   display: flex;
   height: 4em;
+  width: auto;
   margin-left: 1rem;
   padding-right: 6rem;
 }
@@ -168,7 +167,7 @@ export default {
   position: absolute;
   align-items: center;
   top: 0;
-  right: 1.5rem;
+  right: 2rem;
   height: 100%;
 }
 .icon {
@@ -177,6 +176,7 @@ export default {
   font-size: 1.5rem;
   transition: 0.8s ease all;
   width: 2rem;
+
 }
 
 .icon-active {
@@ -194,8 +194,9 @@ export default {
   top: 0;
   left: 0;
   padding: 2rem 1rem 2rem 2rem;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 3px 10px -1px rgba(0,0,0,0.08); 
-box-shadow: 0px 10px 13px -7px #000000, 5px 3px 10px -1px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 3px 10px -1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 3px 10px -1px rgba(0, 0, 0, 0.08);
 }
 .dropdown-nav .dropdown-nav-links {
   padding-bottom: 1rem;
@@ -204,10 +205,36 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 3px 10px -1px rgba(0,0,0,0.08);
   text-decoration: none;
   font-weight: 400;
 }
+.dropdown-nav-links.router-link-exact-active {
+  color: rgb(33, 56, 46);
+  font-weight: 900;
+}
 .scrolled-nav {
   background-color: #1d1d1f;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rbga(0, 0, 0, 0.06);
+}
+.mobile-nav-enter-active,
+.mobile-nav-leave-active {
+  transition: 1s ease all;
+}
+
+.mobile-nav-enter-from,
+.mobile-nav-leave-to {
+  transform: translateX(-250px);
+}
+.mobile-nav-enter-to {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 550px) {
+  .nav-bar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header-logo {
+    justify-self: flex-start;
+  }
 }
 
 @media (min-width: 900px) {

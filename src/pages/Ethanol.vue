@@ -6,16 +6,16 @@
       industryHeaderText="Our facility is equiped with a 5,000 L still (one of the largest in the 
                           Greater Toronto Area) and state-of-the-art equipment.  We can help you 
                           regardless of your stage in the journey."
-      headerImageUrl="fermentation-tanks.jpeg"
+      headerImageUrl="fermentation-tanks.webp"
       headerImageAlt="alcohol"
     />
       <!-- headerImageUrl="alcohol-beverages-small.jpeg" -->
     <div class="ethanol-services-wrapper">
       <div class="ethanol-services">
-        We contract manufacture (or "co-pack") for dozens of companies that don't 
-        want to investment in their own distillery.  Use our experience to avoid common
-        pitfalls along your journey. Here are just some
-        of the services we can offer you, for your beverage or spirit needs:
+        We contract manufacture (or "co-pack") for dozens of companies that view our distillery as an extension of
+        their own businesses.  Our experiences can help you avoid common
+        pitfalls along your journey. Here are some
+        of the services we can offer for your beverage or spirit needs:
         <br /><br />
         <ul>
           <li>
@@ -55,24 +55,11 @@ export default {
 </script>
 
 <style scoped>
-.page-wrapper {
-}
-
-.page-wrapper >>> .header-wrapper {
-}
-
-.page-wrapper >>> .header {
-}
-
-.page-wrapper >>> .header-image {
-}
-
 .ethanol-services-wrapper {
   display: flex;
   justify-content: center;
-
   background: rgb(0, 0, 0);
-  background: url("../assets/strip-background-mesh-wallpaper-preview.jpeg")
+  background: url("../assets/strip-background-mesh-wallpaper-preview.webp")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -88,7 +75,7 @@ li,
 p {
   max-width: 60ch;
   color: inherit;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   color: white;
 }
@@ -101,7 +88,6 @@ p {
   p {
     max-width: 50ch;
     color: inherit;
-    font-size: 1.2rem;
     line-height: 2.5rem;
     color: white;
     padding: 0 2rem;

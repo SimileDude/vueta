@@ -21,7 +21,7 @@
     </div>
     <img
       class="nail-polish-remover-acetone-img even right image container"
-      src="../assets/nail_polish_remover_acetone.png"
+      src="../assets/nail_polish_remover_acetone.webp"
       alt="acetone nail polish remover"
       loading="lazy"
       decode="async"
@@ -39,7 +39,7 @@
 
     <img
       class="nail-polish-remover-non-acetone-img odd left image container"
-      src="../assets/non_acetone_nail_polish_remover.png"
+      src="../assets/non_acetone_nail_polish_remover.webp"
       alt="acetone-free nail polish remover"
       loading="lazy"
       decode="async"
@@ -64,12 +64,13 @@ export default {};
 
 <style scoped>
 .industry-products {
+  max-width: 100%;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 22rem 22rem 1fr;
   grid-template-rows: repeat(3, 25rem);
   gap: 4rem 2rem;
-  background-image: url("../assets/strip-background-mesh-wallpaper-preview.jpeg");
+  background-image: url("../assets/strip-background-mesh-wallpaper-preview.webp");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   padding-top: 4em;
@@ -81,10 +82,6 @@ export default {};
     "product-h1 nail-polish-remover-non-acetone-img nail-polish-remover-non-acetone-info .";
 }
 
-.container {
-  /* max-width: 100%;
-    max-height: 100%; */
-}
 .info {
   align-self: flex-end;
   background-color: rgb(20, 20, 20);
@@ -93,27 +90,21 @@ export default {};
 }
 .makeup-remover-img {
   grid-area: makeup-remover-img;
-  /* border:1px solid white; */
 }
 .makeup-remover-info {
   grid-area: makeup-remover-info;
-  /* border:1px solid white; */
 }
 .nail-polish-remover-acetone-img {
   grid-area: nail-polish-remover-img;
-  /* border:1px solid white; */
 }
 .nail-polish-remover-acetone-info {
   grid-area: nail-polish-remover-info;
-  /* border:1px solid white; */
 }
 .nail-polish-remover-non-acetone-img {
   grid-area: nail-polish-remover-non-acetone-img;
-  /* border:1px solid white; */
 }
 .nail-polish-remover-non-acetone-info {
   grid-area: nail-polish-remover-non-acetone-info;
-  /* border:1px solid white; */
 }
 
 .left {
@@ -121,13 +112,15 @@ export default {};
   justify-self: end;
 }
 .product-h1 {
+  box-sizing: border-box;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  width: 100%;
   font-size: 6em;
   color: #6f6c6c;
-  opacity: 0.2;
+  opacity: 0.25;
   justify-self: center;
-}
+  }
 
 .product-sub {
   font-weight: 200;
@@ -160,15 +153,19 @@ export default {};
     padding: 4rem 2rem;
     margin: 0;
     width: 100%;
+    overflow: hidden;
   }
   .product-h1 {
     box-sizing: border-box;
     writing-mode: horizontal-tb;
-    font-size: 4em;
+    font-size: 3em;
     color: #6f6c6c;
     opacity: 0.8;
     text-align: center;
-    padding: 0 4rem 4rem 4rem;
+    padding: 0 0 3rem;
+    margin: 0;
+    width: 100%;
+    justify-content: left;
   }
   .image {
     width: 100%;
