@@ -1,0 +1,2 @@
+npm run serve //for startup
+vue add router // how you add a package in vue
