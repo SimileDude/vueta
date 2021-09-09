@@ -99,7 +99,11 @@ section{
   top: 0;
   left: 0;
   filter: blur(15px) contrast(30);
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> cd9b079fb81d6843b8511f116562763f09d260c2
 /* .dot {
   position: absolute;
   width: 8rem;
@@ -117,7 +121,11 @@ section{
 .animated {
   animation: moveLeftToRight 4s ease-in-out infinite;
 } */
+<<<<<<< HEAD
 /* @keyframes moveLeftToRight {
+=======
+@keyframes moveLeftToRight {
+>>>>>>> cd9b079fb81d6843b8511f116562763f09d260c2
   0% {
     transform: translateX(0%) rotate(0deg);
     transform-origin: center;
