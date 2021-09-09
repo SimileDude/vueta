@@ -4,8 +4,8 @@
       industryTitle="Cosmetics"
       industrySubTitle="Efficacy. Hydrating."
       industryHeaderText="Customers know what they want.  
-                Our line of cosmetics is effective, reliable, 
-                looks great and very affordable."
+                Our line of cosmetics is effective and 
+                looks great and yet affordable."
       headerImageUrl="beauty_woman_leaves.webp"
       headerImageAlt="Cosmetics products"
     />
@@ -26,7 +26,7 @@ export default {
     CosmeticsProducts,
     CTABox,
   },
-};
+}; 
 </script>
 
 <style>

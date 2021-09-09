@@ -92,49 +92,6 @@ section{
   color: #f5f6f1;
   font-size: 1.05rem;
 }
-/* .animation-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  filter: blur(15px) contrast(30);
-} */
-/* .dot {
-  position: absolute;
-  width: 8rem;
-  height: 8rem;
-  top: 80%;
-  left: 50%;
-  margin-top: -4rem;
-  margin-left: -4rem;
-  transform: translate(0%, 0%) rotate(0deg);
-  transform-origin: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 4rem;
-  box-shadow: 0 0 0 1rem #f2f2f2;
-}
-.animated {
-  animation: moveLeftToRight 4s ease-in-out infinite;
-} */
-/* @keyframes moveLeftToRight {
-  0% {
-    transform: translateX(0%) rotate(0deg);
-    transform-origin: center;
-  }
-  25% {
-    transform: translateX(-150%) rotate(0deg);
-    transform-origin: center;
-  }
-  75% {
-    transform: translateX(150%) rotate(0deg);
-    transform-origin: center;
-  }
-  100% {
-    transform: translateX(0%) rotate(0deg);
-    transform-origin: center;
-  }
-} */
 
 .cta-btn {
   margin: 0;

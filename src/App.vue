@@ -60,9 +60,7 @@ button {
   cursor: pointer;
   font-weight: 500;
 }
-button:hover {
 
-}
 
 .button-dark {
   border-color: white;

@@ -29,6 +29,13 @@
           >CONTACT</router-link
         >
       </div>
+      <div class="header-menu-right" v-show="!mobile">
+        <router-link
+          :to="{ name: 'Contact' }"
+          class="all-menu-links contact-link"
+          >CONTACT</router-link
+        >
+      </div>
     </div>
 
     <div class="icon-wrapper">
