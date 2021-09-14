@@ -68,7 +68,6 @@ section{
 
 .hero-text-wrapper {
   box-sizing: border-box;
-  /* max-width: 95%; */
   position: absolute;
   top: 20%;
   left: 50%;
@@ -92,6 +91,7 @@ section{
   color: #f5f6f1;
   font-size: 1.05rem;
 }
+
 
 .cta-btn {
   margin: 0;
