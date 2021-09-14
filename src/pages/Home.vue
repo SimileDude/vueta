@@ -92,7 +92,6 @@ section{
   font-size: 1.05rem;
 }
 
-
 .cta-btn {
   margin: 0;
   position: absolute;
