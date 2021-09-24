@@ -92,60 +92,6 @@ section{
   color: #f5f6f1;
   font-size: 1.05rem;
 }
-<<<<<<< HEAD
-=======
-/* .animation-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  filter: blur(15px) contrast(30);
-<<<<<<< HEAD
-} */
-=======
-}
->>>>>>> cd9b079fb81d6843b8511f116562763f09d260c2
-/* .dot {
-  position: absolute;
-  width: 8rem;
-  height: 8rem;
-  top: 80%;
-  left: 50%;
-  margin-top: -4rem;
-  margin-left: -4rem;
-  transform: translate(0%, 0%) rotate(0deg);
-  transform-origin: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 4rem;
-  box-shadow: 0 0 0 1rem #f2f2f2;
-}
-.animated {
-  animation: moveLeftToRight 4s ease-in-out infinite;
-} */
-<<<<<<< HEAD
-/* @keyframes moveLeftToRight {
-=======
-@keyframes moveLeftToRight {
->>>>>>> cd9b079fb81d6843b8511f116562763f09d260c2
-  0% {
-    transform: translateX(0%) rotate(0deg);
-    transform-origin: center;
-  }
-  25% {
-    transform: translateX(-150%) rotate(0deg);
-    transform-origin: center;
-  }
-  75% {
-    transform: translateX(150%) rotate(0deg);
-    transform-origin: center;
-  }
-  100% {
-    transform: translateX(0%) rotate(0deg);
-    transform-origin: center;
-  }
-} */
->>>>>>> 10493ba2c8473e8d2b56713833b0986df723104c
 
 .cta-btn {
   margin: 0;

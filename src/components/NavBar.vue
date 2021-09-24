@@ -1,10 +1,6 @@
 <template>
   <nav class="nav-bar" :class="{ 'scrolled-nav': scrolledNav }">
     <router-link :to="{ name: 'Home' }" class="header-logo">
-      <!-- <img
-        src="@/assets/toronto_alcohols_white_logo.svg"
-        alt="Toronto_Alcohols_logo"
-      /> -->
     <img style="height: 4rem" 
     src="@/assets/toronto_alcohols_white_logo.svg" 
     onerror="this.src='@/assets/toronto_alcohols_white_logo.png'; this.onerror=null;">
