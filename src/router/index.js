@@ -5,6 +5,7 @@ import Health from '../pages/Health.vue'
 import Service from '../pages/Service.vue'
 import Contact from '../pages/Contact.vue'
 import Ethanol from '../pages/Ethanol.vue'
+import About from '../pages/About.vue'
 
 const routes = [
   {
